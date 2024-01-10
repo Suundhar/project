@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car selling System</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <center><H1>CAR SELLING WEBSITE</H1></center>
+    <form action="">
+        <div class="models">
+            <label for="">CAR MODELS</label>
+            <select name="model" id="model">
+                <option value="model 1">Car Model 1</option>
+                <option value="model 2">Car Model 2</option>
+                <option value="model 3">Car Model 3</option>
+                <option value="model 4">Car Model 4</option>
+                <option value="model 5">Car Model 5</option>
+                <option value="model 6">Car Model 6</option>
+                <option value="model 7">Car Model 7</option>
+                <option value="model 8">Car Model 8</option>
+                <option value="model 9">Car Model 9</option>
+            </select>
+        </div>
+        <div class="prices">
+            <label for="price">CAR PRICES</label>
+            <select name="price" id="price">
+                <option value="price 1">Below 1 Lakh</option>
+                <option value="price 2">Below 2 Lakh</option>
+                <option value="price 3">Below 3 Lakh</option>
+                <option value="price 4">Below 4 Lakh</option>
+                <option value="price 5">Below 5 Lakh</option>
+                <option value="price 6">Below 6 Lakh</option>
+                <option value="price 7">Below 7 Lakh</option>
+                <option value="price 8">Below 8 Lakh</option>
+                <option value="price 9">Below 9 Lakh</option>
+            </select>
+        </div>
+        <div class="search">
+            <button type="submit">Search Car</button>
+        </div>
+        
+    </form>
+
+    <div class="car-listing">
+        <div class="car-card">
+            <img src="car1.jpg" alt="Car 1" height="100px">
+            <h3>Car Model 1</h3>
+            <p>Year: 2020</p>
+            <p>Price: $25,000</p>
+            <button onclick="buyCar(1)">Buy Now</button>
+        </div>
+
+        <div class="car-card">
+            <img src="car2.jpg" alt="Car 2" height="100px">
+            <h3>Car Model 2</h3>
+            <p>Year: 2018</p>
+            <p>Price: $20,000</p>
+            <button onclick="buyCar(2)">Buy Now</button>
+        </div>
+        <div class="car-card">
+            <img src="car3.jpg" alt="Car 3" height="100px">
+            <h3>Car Model 3</h3>
+            <p>Year: 2020</p>
+            <p>Price: $30,000</p>
+            <button onclick="buyCar(3)">Buy Now</button>
+        </div>
+        <div class="car-card">
+            <img src="car4.jpg.jpeg" alt="Car 4" height="100px">
+            <h3>Car Model 4</h3>
+            <p>Year: 2017</p>
+            <p>Price: $15,000</p>
+            <button onclick="buyCar(4)">Buy Now</button>
+        </div>
+        <div class="car-card">
+            <img src="car5.jpg" alt="Car 5" height="100px">
+            <h3>Car Model 5</h3>
+            <p>Year: 2021</p>
+            <p>Price: $35,000</p>
+            <button onclick="buyCar(5)">Buy Now</button>
+        </div>
+        <div class="car-card">
+            <img src="car6.jpg" alt="Car 6" height="100px">
+            <h3>Car Model 6</h3>
+            <p>Year: 2020</p>
+            <p>Price: $40,000</p>
+            <button onclick="buyCar(6)">Buy Now</button>
+        </div>
+        <div class="car-card">
+            <img src="car7.jpg" alt="Car 7" height="100px">
+            <h3>Car Model 7</h3>
+            <p>Year: 2022</p>
+            <p>Price: $30,000</p>
+            <button onclick="buyCar(7)">Buy Now</button>
+        </div>
+        <div class="car-card">
+            <img src="car8.jpg" alt="Car 8" height="100px">
+            <h3>Car Model 8</h3>
+            <p>Year: 2019</p>
+            <p>Price: $45,000</p>
+            <button onclick="buyCar(8)">Buy Now</button>
+        </div>
+        <div class="car-card">
+            <img src="car9.jpg" alt="Car 9" height="100px">
+            <h3>Car Model 9</h3>
+            <p>Year: 2022</p>
+            <p>Price: $35,000</p>
+            <button onclick="buyCar(9)">Buy Now</button>
+        </div>
+
+        <!-- Add more car cards as needed -->
+    </div>
+
+</body>
+</html>
